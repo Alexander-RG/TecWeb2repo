@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Define la clase "red" */
+.red {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    /* Agrega más propiedades CSS a tu gusto */
+  }
+  
+  /* Otros estilos para elementos adicionales */
+  h1 {
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    font-family: Verdana, sans-serif;
+  }
+  
+.rojo{
+    border: 1px solid red !important;
+}
+
+input[type="radio"].rojo {
+    border: 1px solid red;
+    /* Puedes ajustar el ancho del borde según tus preferencias */
+}
+  

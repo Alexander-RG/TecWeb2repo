@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "module": "index.html",
+  "type": "module",
+  "Descripción": "Aprendiendo sass y npm",
+  "Keywords": ["SASS", "NPM", "GULP"],
+  "Autor": "Alexander",
+  "License": "ISC",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.77.8"
+  },
+  "scripts":  {
+    "sass": "sass --watch src/scss:build/css"
+  }
+}
